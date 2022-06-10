@@ -1,0 +1,20 @@
+{
+  "name": "ggondae",
+  "version": "1.0.0",
+  "description": "ggondae-lang",
+  "main": "src/index.ts",
+  "author": "Jaehong Hwang <dev.jaehong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node src/test.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ts-node": "^10.8.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41"
+  }
+}
